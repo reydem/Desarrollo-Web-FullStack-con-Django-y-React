@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'
 
-function App() {
+import Error404 from 'containers/errors/Error404';
+import Home from 'containers/pages/Home';
+function App(){
   return (
-    <div className="text-gray-500 underline">
-hola mundo
-    </div>
+   <Router>
+        <Routes>
+        {/* Error Display */}     
+            <Route path ="*" element={<Error404/>}/>
+   
+            {/* Home Display */}
+            <Route path="/" element={<Home/>}/>
+            </Routes>
+        </Router>
   );
 }
-
 export default App;

@@ -7,7 +7,9 @@ function Home(){
     return(
         <Layout>
             <Navbar/>
+            <div data-scroll-section className="pt-28">
                     Home
+            </div>
             <Footer/>
         </Layout>
     )

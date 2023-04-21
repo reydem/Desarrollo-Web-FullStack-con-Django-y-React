@@ -1,6 +1,7 @@
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import logo_oo from 'assets/img/oo.png'
+import logo_boomslag from 'assets/img/boomslag-black.png'
 function Navbar() {
     return (
         <nav className='w-full py-10 shadow-md fixed'>
@@ -8,7 +9,7 @@ function Navbar() {
                 <div className="-ml-4 -mt-2 hidden lg:flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2">
                     <div className="ml-4 mt-2">
                         <img
-                            src={logo_oo}
+                            src={logo_boomslag}
                             width={160}
                             height={160}
                             className=""

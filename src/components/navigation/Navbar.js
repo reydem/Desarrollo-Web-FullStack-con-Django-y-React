@@ -6,7 +6,12 @@ function Navbar() {
             <div className="bg-white px-4 sm:px-6">
                 <div className="-ml-4 -mt-2 hidden lg:flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2">
                     <div className="ml-4 mt-2">
-                        <h3 className="text-lg font-medium leading-6 text-gray-900">Job Postings</h3>
+                        <img
+                            src={'https://bafybeiczl4dcxupma2zeyilkukfl4yge64axnhajd722wxgin62mtts6uy.ipfs.w3s.link/murkivamarketing.png'}
+                            width={160}
+                            height={160}
+                            className=""
+                        />
                     </div>
                     <div className="ml-4 mt-2 flex-shrink-0">
                         <div className="ml-4 mt-2 flex-shrink-0">

@@ -4,6 +4,7 @@ import Layout from "hocs/layouts/Layout"
 import Header from "components/home/Header"
 import Incentives from "components/home/Incentives"
 import UseCases from "components/home/UseCases"
+import Features from "components/home/Features"
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
                 <Header />
                 <Incentives />
                 <UseCases/>
+                <Features/>
             </div>
             <Footer />
         </Layout>

@@ -6,6 +6,7 @@ import Incentives from "components/home/Incentives"
 import UseCases from "components/home/UseCases"
 import Features from "components/home/Features"
 import CTA from "components/home/CTA"
+import LogoCloud from "components/home/LogoCloud"
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
                 <UseCases/>
                 <Features/>
                 <CTA/>
+                <LogoCloud/>
             </div>
             <Footer />
         </Layout>

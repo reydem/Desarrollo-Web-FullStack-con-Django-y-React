@@ -1,5 +1,20 @@
 import { Link } from 'react-router-dom'
 function Header() {
+
+  window.onscroll = function () { scrollFunction() }
+
+    function scrollFunction() {
+    if (document.getElementById('navbar')) {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById('navbar').classList.add('shadow-navbar');
+        document.getElementById('navbar').classList.add('bg-white');
+      } else {
+        document.getElementById('navbar').classList.remove('shadow-navbar');
+        document.getElementById('navbar').classList.remove('bg-white');
+      }
+    }
+  }
+
   return (
     <main>
     <div className="relative px-6 lg:px-8">

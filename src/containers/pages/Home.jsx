@@ -1,13 +1,14 @@
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
+import Header from "components/home/Header"
 
 function Home(){
     return(
         <Layout>
             <Navbar/>
             <div data-scroll-section className="pt-28">
-                    Home
+            <Header/>
             </div>
             <Footer/>
         </Layout>

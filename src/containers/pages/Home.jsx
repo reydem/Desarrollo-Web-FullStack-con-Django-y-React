@@ -3,6 +3,7 @@ import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
 import Header from "components/home/Header"
 import Incentives from "components/home/Incentives"
+import UseCases from "components/home/UseCases"
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <div data-scroll-section className="pt-28">
                 <Header />
                 <Incentives />
+                <UseCases/>
             </div>
             <Footer />
         </Layout>

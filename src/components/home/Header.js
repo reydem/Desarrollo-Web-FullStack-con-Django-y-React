@@ -34,9 +34,9 @@ function Header() {
               </div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                  Data toda
+                Conteo <span> </span>
                   <Typewriter
-                        words={['Dreamers', 'Creators', 'You!']}
+                        words={['1.....', '2.....', '3.....']}
                         loop={0}
                         cursor
                         

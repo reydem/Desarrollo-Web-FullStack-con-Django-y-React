@@ -1,9 +1,15 @@
 import { connect } from 'react-redux'
+import { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import logo_oo from 'assets/img/oo.png'
 import logo_boomslag from 'assets/img/boomslag-black.png'
 import loading_dots from 'assets/img/loading-dots.gif'
+import DotLoader from 'react-spinners/DotLoader'
+
 function Navbar() {
+
+    const [loading, setLoading] = useState(true)
+
     return (
         <nav data-scroll data-scroll-id="hey" id='navbar' className='w-full py-6 top-0 transition duration-300 ease-in-out z-40 fixed'>
             <div className="px-4 sm:px-6">
@@ -27,9 +33,9 @@ function Navbar() {
                             to="/contacto"
                             className="inline-flex ml-12 items-center rounded-md border border-transparent bg-orange-button px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
                         >
-                            Hire Us 3:18
-                             <div color="#f2f2f2" className="ml-3 -mr-1 h-5 w-5" /> 
-                        </Link>      
+                            Hire Us
+                            <DotLoader className="ml-3 -mr-1 h-5 w-5" loading={loading} size={20} color="#f2f2f2" />
+                        </Link>
                     </div>
                 </div>
             </div>

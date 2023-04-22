@@ -37,6 +37,16 @@ function Header() {
                         // onType={handleType}
                     />
               </h1>
+              <ul className="flex gap-8">
+                <li className="inline-flex">
+                  <Link to="/servicos/AlgoAqui">
+                    item 1
+                  </Link>
+                </li>
+                <Link to="/servicos/AlgoAqui">
+                  item 1
+                </Link>
+              </ul>
             <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">
             Jumpstart today your business with one of our services that range from <span className='lg:text-xl text-md font-medium leading-8 text-gray-700 sm:text-center  transition duration-300 ease-in-out border-b-2 border-transparent hover:border-orange-button'><Link to='/'>Web Development</Link></span> 
             <span className='mx-1 lg:text-xl text-md font-medium leading-8 text-gray-700 sm:text-center transition duration-300 ease-in-out border-b-2 border-transparent hover:border-orange-button'><Link to='/'> App Development</Link></span>

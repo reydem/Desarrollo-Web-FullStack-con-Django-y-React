@@ -1,4 +1,4 @@
-import Footer from "components/navigation/Footer"
+
 import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
 import Header from "components/home/Header"
@@ -7,6 +7,8 @@ import UseCases from "components/home/UseCases"
 import Features from "components/home/Features"
 import CTA from "components/home/CTA"
 import LogoCloud from "components/home/LogoCloud"
+import BlogList from "components/home/BlogList"
+import Footer from "components/navigation/Footer"
 
 function Home() {
     return (
@@ -19,6 +21,7 @@ function Home() {
                 <Features/>
                 <CTA/>
                 <LogoCloud/>
+                <BlogList/>
             </div>
             <Footer />
         </Layout>

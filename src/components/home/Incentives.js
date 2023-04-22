@@ -24,7 +24,7 @@ export default function Incentives() {
         <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
           <div className="max-w-3xl">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-              We built our business on customer service
+            Construimos nuestro negocio en el servicio al cliente
             </h2>
             <p className="mt-4 text-gray-500">
               At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring

@@ -11,15 +11,15 @@ module.exports = {
     },
   },
   plugins: [
-    // function ({addUtilities}){
-    //   const extendunderline = {
-    //     '.underline': {
-    //       'textDecoration':'underline',
-    //       ' text-decoration-color': 'orange',
-    //     },
-    //   }
-    //   addUtilities(extendunderline)
-    // }
+    function ({addUtilities}){
+      const extendunderline = {
+        '.underline': {
+          'textDecoration':'underline',
+          ' text-decoration-color': 'orange',
+        },
+      }
+      addUtilities(extendunderline)
+    }
   ],
 }
 

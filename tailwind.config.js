@@ -5,11 +5,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        "orange-button":'#ff561e'
+      colors: {
+        "orange-button": '#ff561e'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    // function ({addUtilities}){
+    //   const extendunderline = {
+    //     '.underline': {
+    //       'textDecoration':'underline',
+    //       ' text-decoration-color': 'orange',
+    //     },
+    //   }
+    //   addUtilities(extendunderline)
+    // }
+  ],
 }
 

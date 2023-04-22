@@ -28,8 +28,8 @@ function Navbar() {
                             className="inline-flex ml-12 items-center rounded-md border border-transparent bg-orange-button px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-gray-900 transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
                         >
                             Hire Us 3:18
-                            <img  src={loading_dots} color="#f2f2f2" className="ml-3 -mr-1 h-5 w-5" />
-                        </Link>
+                             <div color="#f2f2f2" className="ml-3 -mr-1 h-5 w-5" /> 
+                        </Link>      
                     </div>
                 </div>
             </div>

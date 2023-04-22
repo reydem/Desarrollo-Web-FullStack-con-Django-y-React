@@ -23,21 +23,7 @@ function Header() {
             <div>
               <div>
                 <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                Conteo <span> </span>
-                {/* <div className='inline-flex' style={{color: '#FF561E', fontweight: 'bold'}}> */}
-                  <Typewriter
-                  words={['1.....', '2.....', '3.....']}
-                  loop={0}
-                  cursor
-                  
-                  cursorStyle='_'
-                  typeSpeed={120}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                  // onLoopDone={handleDone}
-                  // onType={handleType}
-              />
-                {/* </div> */}
+                Casos de estudios
 
                 </h1>
                 <ul className="flex gap-8 items-center justify-center py-12">

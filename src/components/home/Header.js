@@ -1,4 +1,3 @@
-import { Typewriter } from 'react-simple-typewriter'
 
 function Header() {
   return (
@@ -18,19 +17,8 @@ function Header() {
               </div>
             </div>
             <div>
-              <h1 className="text-4xl font-semibold tracking-tight pb-16  sm:text-7xl">
-                Agency for <span> </span>
-                <Typewriter
-                  words={['Eat', 'Sleep', 'Code', 'Repeat!']}
-                  loop={0}
-                  cursor
-                  cursorStyle='_'
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                // onLoopDone={handleDone}
-                // onType={handleType}
-                />
+              <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                Data to enrich your online business
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt

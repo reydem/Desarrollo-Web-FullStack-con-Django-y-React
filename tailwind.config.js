@@ -15,7 +15,7 @@ module.exports = {
       const extendunderline = {
         '.underline': {
           'textDecoration':'underline',
-          ' text-decoration-color': 'orange',
+          ' text-decoration-color': '#ff561e',
         },
       }
       addUtilities(extendunderline)

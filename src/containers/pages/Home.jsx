@@ -5,6 +5,7 @@ import Header from "components/home/Header"
 import Incentives from "components/home/Incentives"
 import UseCases from "components/home/UseCases"
 import Features from "components/home/Features"
+import CTA from "components/home/CTA"
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
                 <Incentives />
                 <UseCases/>
                 <Features/>
+                <CTA/>
             </div>
             <Footer />
         </Layout>

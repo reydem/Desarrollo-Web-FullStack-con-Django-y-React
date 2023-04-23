@@ -76,7 +76,7 @@ function CasesList(){
         <div className="absolute inset-0">
           <div className="h-1/3 bg-white sm:h-2/3" />
         </div>
-        <div className="relative mx-auto max-w-full">
+        <div className="relative mx-auto max-w-7xl">
           
           <Carousel
                 itemsToScroll={3}

@@ -1,5 +1,5 @@
 import ServiceCard from "./ServiceCard"
-
+import coding_img from 'assets/img/services/coding.png'
 
 function ServicesList({posts, section_title}){
     return(
@@ -16,7 +16,7 @@ function ServicesList({posts, section_title}){
           </div>
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
-              <ServiceCard/>
+              <ServiceCard data={post} img={coding_img}/>
             ))}
           </div>
         </div>

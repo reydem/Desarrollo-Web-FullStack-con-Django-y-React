@@ -3,11 +3,12 @@ import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
 import Header from "components/services/Header"
 import ServicesList from "components/services/ServicesList"
+import coding_img from 'assets/img/services/coding.png'
 
 const posts_software = [
     {
       title: 'Boost your conversion rate',
-    //   img: coding_img,
+      img: coding_img,
       href: '#',
       category: { name: 'Article', href: '#' },
       description:
@@ -27,7 +28,7 @@ const posts_software = [
     {
       title: 'How to use search engine optimization to drive sales',
       href: '#',
-    //   img: coding_img,
+      img: coding_img,
       category: { name: 'Video', href: '#' },
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
@@ -46,7 +47,7 @@ const posts_software = [
     {
       title: 'Improve your customer experience',
       href: '#',
-    //   img: coding_img,
+      img: coding_img,
       category: { name: 'Case Study', href: '#' },
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',

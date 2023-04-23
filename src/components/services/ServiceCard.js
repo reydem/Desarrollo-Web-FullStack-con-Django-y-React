@@ -2,7 +2,7 @@ function ServiceCard({}) {
     return (
         <div className="w-full relative p-8 h-96 lg:h-[200pm] bg-white hover:-translate-y-1 transition duration-300 ease-in-out">
             <div className="w-full ">
-                <img className='w-10 h-10'/>
+            <i class='bx bx-code-block text-7xl text-gray-500'></i>
                 <h2 className="text-xl font-semibold text-gray-900 pt-8">learn More</h2>
                 <p className="text-lg font-regular text-gray-500 pt-4">learn More</p>
             </div>

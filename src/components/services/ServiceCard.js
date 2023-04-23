@@ -4,14 +4,12 @@ function ServiceCard({data, index}) {
         onMouseEnter={()=>{
             const title_element = document.getElementById(index)
             title_element.classList.add('text-orange-500')
-            // const img = document.getElementById(data.id)
-            // img.classList.add('object-scale-down')
+            title_element.classList.remove('text-gray-900')
         }} 
         onMouseLeave={()=>{
             const title_element = document.getElementById(index)
             title_element.classList.remove('text-orange-500')
-            // const img = document.getElementById(data.id)
-            // img.classList.remove('object-scale-down')
+            title_element.classList.add('text-gray-900')
         }} 
         className="w-full relative p-8 h-96 lg:h-[200pm] bg-white hover:-translate-y-1 transition duration-300 ease-in-out">
             <div className="w-full ">

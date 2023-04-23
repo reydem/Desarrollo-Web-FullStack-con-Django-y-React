@@ -27,7 +27,7 @@ function Header() {
 
             <div>
               <h1 className="text-4xl font-bold tracking-tight pb-16 sm:text-6xl">
-                Casos de estudios
+                Casos de estudios 4:04
 
               </h1>
               <p className="mt-16 text-2xl max-w-3xl leading-8 text-black ">

@@ -1,4 +1,5 @@
 import Header from "components/careers/Header"
+import Testimonial from "components/careers/Testimonial"
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
@@ -13,6 +14,7 @@ function Careers(){
             <Navbar/>
             <div data-scroll-section className="pt-28">
             <Header/>
+            <Testimonial/>
             </div>
             <Footer/>
         </Layout>

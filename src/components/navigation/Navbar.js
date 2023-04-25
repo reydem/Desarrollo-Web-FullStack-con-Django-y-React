@@ -64,7 +64,7 @@ function Navbar() {
                     <div className="ml-4 mt-2 flex-shrink-0">
 
                     <button className=''>
-                        <i className='bx bx-menu'></i>
+                        <i className='bx bx-menu text-5xl'></i>
                     </button>
                     </div>
                 </div>

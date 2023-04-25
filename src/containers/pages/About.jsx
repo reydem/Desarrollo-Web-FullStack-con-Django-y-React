@@ -1,5 +1,6 @@
 import Header from "components/about/Header"
 import Images from "components/about/Images"
+import LogoCloud from "components/about/LogoCloud"
 import TestStats from "components/about/TestStats"
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
@@ -17,6 +18,7 @@ function About(){
             <Header/>
             <TestStats/>
             <Images/>
+            <LogoCloud/>
             </div>
             <Footer/>
         </Layout>

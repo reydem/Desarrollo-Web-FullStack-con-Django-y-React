@@ -14,15 +14,17 @@ function Navbar() {
 
     function scrollFunction() {
         if (document.getElementById('navbar')) {
-          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            document.getElementById('navbar').classList.add('shadow-navbar');
-            document.getElementById('navbar').classList.add('bg-white');
-          } else {
-            document.getElementById('navbar').classList.remove('shadow-navbar');
-            document.getElementById('navbar').classList.remove('bg-white');
-          }
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById('navbar').classList.add('shadow-navbar');
+                document.getElementById('navbar').classList.add('bg-white');
+            } else {
+                document.getElementById('navbar').classList.remove('shadow-navbar');
+                document.getElementById('navbar').classList.remove('bg-white');
+            }
         }
-      }
+    }
+
+    const [open, setOpen] = useState(false)
 
     return (
         <nav data-scroll data-scroll-id="hey" id='navbar' className='w-full py-6 top-0 transition duration-300 ease-in-out z-40 fixed'>
@@ -63,9 +65,14 @@ function Navbar() {
                     </Link>
                     <div className="ml-4 mt-2 flex-shrink-0">
 
-                    <button className=''>
-                        <i className='bx bx-menu text-5xl'></i>
-                    </button>
+                        <button className=''>
+                            {
+                                open ?
+                                    <i onClick={()=>{setOpen(false)}} className='bx bx-x text-4xl'></i>
+                                    :
+                                    <i onClick={()=>{setOpen(true)}} className='bx bx-menu text-4xl'></i>
+                            }
+                        </button>
                     </div>
                 </div>
             </div>

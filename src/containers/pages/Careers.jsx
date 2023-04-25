@@ -1,3 +1,4 @@
+import Features from "components/careers/Features"
 import Header from "components/careers/Header"
 import LogoCloud from "components/careers/LogoCloud"
 import Testimonial from "components/careers/Testimonial"
@@ -17,6 +18,7 @@ function Careers(){
             <Header/>
             <Testimonial/>
             <LogoCloud/>
+            <Features/>
             </div>
             <Footer/>
             

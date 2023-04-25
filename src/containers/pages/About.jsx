@@ -1,3 +1,4 @@
+import CTA from "components/about/CTA"
 import Clients from "components/about/Clients"
 import Features from "components/about/Features"
 import Header from "components/about/Header"
@@ -25,6 +26,7 @@ function About(){
             <LogoCloud/>
             <Features/>
             <Team/>
+            <CTA/>
             </div>
             <Footer/>
         </Layout>

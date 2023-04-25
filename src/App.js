@@ -16,8 +16,8 @@ import About from 'containers/pages/About';
 import Careers from 'containers/pages/Careers';
 import Blog from 'containers/pages/Blog';
 import Contact from 'containers/pages/Contact';
+import AnimatedRoutes from 'Routes';
 
-// import { AnimatePresence } from 'framer-motion'
 function App() {
   return (
     <HelmetProvider>
@@ -46,19 +46,7 @@ function App() {
       </Helmet>
       <Provider store={store}>
         <Router>
-          <Routes>
-            {/* Error Display */}
-            <Route path="*" element={<Error404 />} />
-
-            {/* Home Display */}
-            <Route path="/" element={<Home />} />
-            <Route path="/casos" element={<Cases />} />
-            <Route path="/servicios" element={<Services />} />
-            <Route path="/nosotros" element={<About />} />
-            <Route path="/carreras" element={<Careers />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contacto" element={<Contact />} />
-          </Routes>
+        <AnimatedRoutes/>
         </Router>
       </Provider>
     </HelmetProvider>

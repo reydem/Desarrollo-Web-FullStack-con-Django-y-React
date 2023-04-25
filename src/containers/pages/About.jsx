@@ -1,3 +1,4 @@
+import Clients from "components/about/Clients"
 import Header from "components/about/Header"
 import Images from "components/about/Images"
 import LogoCloud from "components/about/LogoCloud"
@@ -18,6 +19,7 @@ function About(){
             <Header/>
             <TestStats/>
             <Images/>
+            <Clients/>
             <LogoCloud/>
             </div>
             <Footer/>

@@ -23,7 +23,7 @@ function Header() {
         <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
           <div>
             <div>
-              <h1 className="text-4xl font-bold tracking-tight pb-16 sm:text-6xl">
+              <h1 className="text-4xl font-semibold tracking-tight pb-8  sm:text-7xl">
               About
               </h1>
               <p className="mt-6 text-2xl leading-10 text-black max-w-5xl">

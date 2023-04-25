@@ -3,6 +3,7 @@ import Features from "components/about/Features"
 import Header from "components/about/Header"
 import Images from "components/about/Images"
 import LogoCloud from "components/about/LogoCloud"
+import Team from "components/about/Team"
 import TestStats from "components/about/TestStats"
 import Footer from "components/navigation/Footer"
 import Navbar from "components/navigation/Navbar"
@@ -23,6 +24,7 @@ function About(){
             <Clients/>
             <LogoCloud/>
             <Features/>
+            <Team/>
             </div>
             <Footer/>
         </Layout>
